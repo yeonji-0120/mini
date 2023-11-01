@@ -28,7 +28,7 @@ public class ItemDAO {
         PreparedStatement pstmt = null;
         ResultSet rset = null;
         List<ItemDTO> itemDTOList = null;
-        String query = prop.getProperty("selectAllItem");
+        String query = prop.getProperty("selectAllCategory");
 
         try {
             pstmt = con.prepareStatement(query);

@@ -7,7 +7,7 @@ import java.util.*;
 
 public class ItmeMenu {
     ProductController productController = new ProductController();
-
+    MemberMenu memberMenu = new MemberMenu();
     public void displayMainMenu() {
         Scanner sc = new Scanner(System.in);
 
@@ -24,6 +24,7 @@ public class ItmeMenu {
                     productview();
                     break;
                 case 2:
+                    memberMenu.MemberMainMenu();
                     break;
                 case 3:
                     break;
